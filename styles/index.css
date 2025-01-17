@@ -1,0 +1,113 @@
+/* Header settings */
+header {
+    background-color: red;
+    display: flex;
+    flex: 100%;
+    align-items: center;
+}
+
+.div-image-logo {
+    padding-left: 10px;
+    width: 100%;
+}
+
+.logo-flex-gym {
+    height: 70px;
+    width: 70px;
+}
+
+.div-menu {
+    padding-right: 10px;
+}
+
+.menu {
+    width: 40px;
+    height: 40px;
+}
+
+/* Section 1 about us */
+
+.about-us-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.div-main-image {
+    width: 95%;
+    height: 100%;
+}
+
+.main-image {
+    width: 100%;
+    height: 100%;
+}
+
+.about-div {
+    width: 100%;
+    height: 100%;
+}
+
+.about-div > h1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.about-div > p {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    text-align: justify;
+}
+
+/* Section 2 localization */
+
+.locale-section {
+    margin-top: 50px;
+}
+
+.locale-div { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.locale-div > h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.locate-image {
+    width: 95%;
+}
+
+.locale-div > p {
+    text-align: justify;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+
+.container-flex-button {
+    display: flex;  
+    justify-content: center; 
+    width: 100%;
+}
+
+.button-google-maps {
+    background-color: rgb(138, 27, 27);
+    border-radius: 10px;
+    color: white;
+    font-size: 17pt;
+    width: 60%;
+    height: 75px;
+}
+
+.button-google-maps > a {
+    text-decoration: none;
+    color: white;
+}

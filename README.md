@@ -1,2 +1,2 @@
-# studio-flex-gym
-Site developed for my personal gym
+# STUDIO FLEX GYM
+Site in development
